@@ -72,6 +72,47 @@
     letter-spacing: 1px;
     width: 80%;
 }
-.figure{
-    
+.figure>div{
+    display: flex;
+    flex-direction: column;   
+}
+.figure>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem
+}
+
+.figure>div>span:nth-of-type(2){
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight:normal;
+}
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+}
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color:transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;top: 2 rem;color: black;
+}
+.heart-rate{
+    display: flex;
+    flex-direction:column ;
+    gap: 1rem;
+    background-color: var(--darkGrey);
+    width:fit-content;
+    padding: 1rem;
+    align-items: start;
+
 }

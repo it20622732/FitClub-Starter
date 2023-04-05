@@ -6,6 +6,18 @@
     gap:4rem;
     position: relative;
 }
+.plans-blur-1{
+    width: 32 rem;
+    height:23rem;
+    top: 6rem;
+    left: 0rem; 
+}
+.plans-blur-2{
+    width: 32 rem;
+    height:23rem;
+    top: 10rem;
+    left: 0rem; 
+}
 .plans{
     display: flex;
     align-items: center;
@@ -55,3 +67,4 @@
 .plans>:nth-child(2)>button{
     fill: orange;
 }
+

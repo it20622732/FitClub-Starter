@@ -15,7 +15,8 @@
     color: white
 }
 
-.header-menu>li:hover{
+.header-menu >li:hover
+{
     color: var(--orange);
     cursor: pointer;
 }

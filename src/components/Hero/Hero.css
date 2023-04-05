@@ -15,7 +15,7 @@
 .right-h{
     flex:1;
     position: relative;
-    background-color: var(--orange);
+    background-color:var(--orange);
 }
 
 .the-best-ad{
@@ -31,7 +31,8 @@
     align-items: center;
     justify-content: flex-start;
 }
-.the-best-ad>div{
+.the-best-ad >div
+{
     position: absolute;
     background-color: var(--orange);
     width: 5.4rem;
@@ -65,38 +66,39 @@
     text-overflow: inherit;
 }
 
-.hero-text>div:nth-of-type(3){
+.hero-text>div:nth-of-type(3)
+{
     font-size: 1rem;
     font-weight: 200;
     text-transform: none;
     letter-spacing: 1px;
     width: 80%;
 }
-.figure>div{
+.figures>div{
     display: flex;
     flex-direction: column;   
 }
-.figure>div>span:nth-of-type(1){
+.figures>div>span:nth-of-type(1){
     color: white;
     font-size: 2rem
 }
 
-.figure>div>span:nth-of-type(2){
+.figures>div>span:nth-of-type(2){
     color: var(--gray);
     text-transform: uppercase;
 }
 
-.hero-buttons{
+.hero-button{
     display: flex;
     gap: 1rem;
     font-weight:normal;
 }
-.hero-buttons>:nth-child(1){
+.hero-button>:nth-child(1){
     color: white;
     background-color: var(--orange);
     width: 8rem;
 }
-.hero-buttons>:nth-child(2){
+.hero-button>:nth-child(2){
     color: white;
     background-color:transparent;
     width: 8rem;
@@ -114,5 +116,58 @@
     width:fit-content;
     padding: 1rem;
     align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+.heart-rate>img{
+    width: 2rem;
+}
+.heart-rate>:nth-child(2){
+    color: var(--gray)
+}
+.heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5 rem;
+}
 
+.hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+.Calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+.calories> img{
+    width: 3rem;
+}
+.Calories >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Calories > div >:nth-child(1){
+    color: var(--gray);
+}
+.Calories > div >:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
 }
